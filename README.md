@@ -28,7 +28,7 @@
 
 **4.Browse the following url in Browser**
 
-[Buildit-Weather-App](http://localhost:8080/)
+[http://localhost:8080/](http://localhost:8080/)
 
 ### Live Version
 
