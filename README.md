@@ -24,8 +24,7 @@
 
 **3.Run Application**
 
-	 npm start //or
-   npm run dev
+	 npm start or npm run dev
 
 **4.Browse the following url in Browser**
 
