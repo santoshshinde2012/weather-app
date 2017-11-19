@@ -1,12 +1,12 @@
 import axios from 'axios';
 import config from '../../config/common';
 
-const ROOT_URL=`https://api.openweathermap.org/data/2.5/forecast?appid=${config.API_KEY}`;
+let ROOT_URL=`https://api.openweathermap.org/data/2.5/forecast?appid=${config.api.key}`;
 
-export  const FETCH_WEATHER='FETCH_WEATHER';
+export  let FETCH_WEATHER='FETCH_WEATHER';
 export function fetchWeather(city){
-  const url=`${ROOT_URL}&q=${city},in`;
-  const request=axios.get(url);
+  let url=`${ROOT_URL}&q=${city},in`;
+  let request=axios.get(url);
 
   return{
     type: FETCH_WEATHER,

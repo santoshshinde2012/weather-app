@@ -44,7 +44,7 @@ body {
   position: fixed;
   top: 0px;
   background-color: #0088cc;
-  height: 150px;
+  height: 160px;
   left: 0px;
   top: 0px;
   z-index: 10;
@@ -54,7 +54,7 @@ body {
   padding: 5px;
   padding-top: 5px;
   padding-left: 30px;
-  margin-top: 150px;
+  margin-top: 160px;
   width: 100%;
   position: fixed;
   top: 0px;
@@ -133,6 +133,10 @@ body {
   transition: all .4s ease;
 }
 
+.text-hint{
+  text-align: center;
+  color: darkgrey;
+}
 .textCenter {
   margin-top: 220px;
   text-align: center;

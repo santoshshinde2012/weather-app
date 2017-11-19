@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
-const API_KEY='AIzaSyBs41SBinLJJULuKU0JbOgHSAlDFAvhPdk';
+import config from '../../config/common';
+
+
 class GoogleMap extends Component{
+
   componentDidMount(){
     new google.maps.Map(this.refs.map,{
       zoom:12,
@@ -8,14 +11,14 @@ class GoogleMap extends Component{
         lat:this.props.lat,
         lng: this.props.lon
       },
-      key:API_KEY
+      key: config.googlemap.key
 
     })
   }
+
   render(){
     return (
       <div ref='map'/>
-
     )
 
   }
