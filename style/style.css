@@ -1,0 +1,143 @@
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.input-group {
+  text-align: center;
+  padding-top: 10px;
+  width: 450px;
+  margin: auto;
+}
+
+svg {
+  height: 150px;
+}
+
+td:first-of-type, td:first-of-type>div {
+  height: 200px;
+  width: 250px;
+}
+
+body {
+  background: url('grey.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+.title-color{
+  color: #FFAF26;
+}
+
+.header-cont {
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: #0088cc;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+}
+
+.header-cont2 {
+  padding: 5px;
+  padding-top: 5px;
+  padding-left: 30px;
+  margin-top: 150px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+}
+
+.weatherList {
+  margin-top: 210px;
+}
+
+.tableHead {
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+.headTitle {
+  text-align: center !important;
+  text-align: center;
+}
+
+.city {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  display: inline;
+  padding-left: 30px;
+  text-align: center !important;
+}
+
+.temp {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  display: inline;
+  padding-left: 200px;
+  text-align: center !important;
+}
+
+.press {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  display: inline;
+  padding-left: 160px;
+  text-align: center !important;
+}
+
+.hum {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  display: inline;
+  padding-left: 170px;
+  padding-right: 40px;
+  text-align: center !important;
+}
+
+.glow2 a {
+  text-align: center; //color: ;
+  color: #0088cc;
+  color: #FFAF26;
+  margin-right: 5px;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.glow2 a :hover {
+  text-align: center;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.textCenter {
+  margin-top: 220px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Architects Daughter', cursive;
+}
