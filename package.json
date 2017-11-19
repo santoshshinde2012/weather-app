@@ -1,7 +1,7 @@
 {
   "name": "buildit-weather-app",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "A React web app to get a five-day forecast in your favorite cities.",
   "main": "index.js",
   "repository": "git@github.com:santoshshinde2012/weather-app.git",
   "scripts": {
