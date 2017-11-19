@@ -30,13 +30,13 @@
 
 [http://localhost:8080/](http://localhost:8080/)
 
-## Live Version
+# Live Version
 
   > [Buildit-Weather-App](https://b-weather-app.herokuapp.com/)
 
 ![Buildit-Weather-App](https://github.com/santoshshinde2012/weather-app/blob/master/public/demo.jpg)
 
-## About Me
+# About Me
 
  * [My website](http://santoshshinde.com/) (santoshshinde.com)
  * [Github](https://github.com/santoshshinde2012) (@santoshshinde2012)
