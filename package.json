@@ -46,5 +46,8 @@
     "redux": "^3.0.4",
     "redux-promise": "^0.5.3",
     "serve-favicon": "^2.4.5"
+  },
+  "engines": {
+    "node": "6.10.0"
   }
 }
