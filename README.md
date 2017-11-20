@@ -20,7 +20,7 @@
 
 **2.Build Application**
 
-	npm run postinstall;
+	npm run build;
 
 **3.Run Application**
 

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import SearchBar from '../containers/search_bar';
 import WeatherList from '../containers/weather_list';
+
 export default class App extends Component {
+
   render() {
     return (
       <div>
@@ -13,6 +15,7 @@ export default class App extends Component {
           <div className='text-hint'>
             ** Please search city from India **
           </div>
+
           <SearchBar/>
 
           <div className='header-cont2'>
@@ -25,9 +28,7 @@ export default class App extends Component {
           </div>
         </div>
 
-        <div className='weatherList'>
-          <WeatherList/>
-        </div>
+        <WeatherList/>
 
       </div>
     );
